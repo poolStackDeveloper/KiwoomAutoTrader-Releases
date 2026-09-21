@@ -19,6 +19,8 @@ Windows x64에서 위 파일 하나를 실행하세요. .NET 8 런타임을 포�
 
 다운로드 및 변경 사항: [Releases](https://github.com/poolStackDeveloper/KiwoomAutoTrader-Releases/releases)
 
+v1.5.0의 우측 **실시간 매매 모니터**에서 연결 준비 단계·경과 시간·검색 진행률·현재 검토 종목을 확인할 수 있습니다. 매수 검토 후보의 대기 사유, 전략 보유종목의 보호선/시간청산 조건, 이미 발생한 신호·진행 주문을 각각 표시합니다. 매수 검토는 확정 주문이나 체결 예측이 아닙니다. 최근 시세와 계좌 조회 시각, 중지/주문 잠금 상태도 함께 확인하세요.
+
 ## 저장 위치
 
 - 계좌 설정·거래 DB: `%LOCALAPPDATA%\KiwoomAutoTrader` (민감 payload는 Windows DPAPI 암호화)
